@@ -1,0 +1,9 @@
+127.0.0.1 - - [11/Feb/2021:04:12:52 +0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [11/Feb/2021:04:12:52 +0300] "GET /25-Web-Customer-Tracker/ HTTP/1.1" 302 -
+127.0.0.1 - - [11/Feb/2021:04:12:52 +0300] "GET /25-Web-Customer-Tracker/customer/list HTTP/1.1" 500 10179
+127.0.0.1 - - [11/Feb/2021:04:13:47 +0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [11/Feb/2021:04:13:48 +0300] "GET /25-Web-Customer-Tracker/ HTTP/1.1" 302 -
+127.0.0.1 - - [11/Feb/2021:04:13:48 +0300] "GET /25-Web-Customer-Tracker/customer/list HTTP/1.1" 200 1068
+127.0.0.1 - - [11/Feb/2021:04:13:48 +0300] "GET /25-Web-Customer-Tracker/resources/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Feb/2021:04:16:12 +0300] "GET /25-Web-Customer-Tracker/customer/list HTTP/1.1" 200 1068
+127.0.0.1 - - [11/Feb/2021:04:16:12 +0300] "GET /25-Web-Customer-Tracker/resources/css/style.css HTTP/1.1" 200 1062

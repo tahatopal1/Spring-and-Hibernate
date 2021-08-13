@@ -1,0 +1,13 @@
+package com.project.dao;
+
+import com.project.entity.Role;
+
+public class RoleDaoImpl implements RoleDao{
+
+	@Override
+	public Role findRoleByName(String roleName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

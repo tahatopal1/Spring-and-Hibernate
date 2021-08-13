@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.project.dao.EmployeeDAOHibernateImpl&apos; to &apos;EmployeeDAOJPAImpl&apos;&#x0D;&#x0A;- Original project: &apos;48-JPA-REST-CRUD&apos;&#x0D;&#x0A;- Original element: &apos;com.project.dao.EmployeeDAOHibernateImpl&apos;&#x0D;&#x0A;- Renamed element: &apos;com.project.dao.EmployeeDAOJPAImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EmployeeDAOHibernateImpl&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.project.dao{EmployeeDAOHibernateImpl.java[EmployeeDAOHibernateImpl" matchStrategy="1" name="EmployeeDAOJPAImpl" qualified="false" references="true" similarDeclarations="false" stamp="1628446228009" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+127.0.0.1 - - [05/Aug/2021:04:59:44 +0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Aug/2021:04:59:45 +0300] "GET /spring-crm-rest-security/ HTTP/1.1" 200 140
+0:0:0:0:0:0:0:1 - - [05/Aug/2021:05:00:11 +0300] "GET /spring-crm-rest-security/api/customers HTTP/1.1" 401 703
+0:0:0:0:0:0:0:1 - - [05/Aug/2021:05:01:21 +0300] "GET /spring-crm-rest-security/api/customers HTTP/1.1" 400 213

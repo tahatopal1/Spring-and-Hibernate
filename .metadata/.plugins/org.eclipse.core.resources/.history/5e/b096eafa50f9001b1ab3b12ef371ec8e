@@ -1,0 +1,11 @@
+package com.project.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+import com.project.entity.Employee;
+
+@RepositoryRestResource(path = "members") // default path was "employees"
+public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
+	
+}

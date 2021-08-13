@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;12-BeanLifeCycleWithAnnotations/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;11-BeanLifeCycle&apos;&#x0D;&#x0A;- Destination element: &apos;12-BeanLifeCycleWithAnnotations/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     11-BeanLifeCycle/src/main/java/com.project.model&#x0D;&#x0A;     11-BeanLifeCycle/src/main/java/com.project.test" description="Copy packages" destination="=12-BeanLifeCycleWithAnnotations/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.project.model" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.project.test" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1611427025617" version="1.0"/>
+</session>

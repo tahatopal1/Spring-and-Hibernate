@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\tahat\eclipse-workspace\25-Web-Customer-Tracker\pom.xml"/>
+			<item value="C:\Users\tahat\eclipse-workspace\23-HibernateMappings"/>
+			<item value="C:\Users\tahat\eclipse-workspace\9-BeanInjectionByQualifier"/>
+			<item value="C:\Users\tahat\eclipse-workspace\14-BeansWithJavaConfig"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="spring_general._SpringREST_CRUDProject"/>
+			<item value="spring_general._SpringREST_JacksonHandles"/>
+			<item value="spring_general._SpringREST_JacksonWillHandle"/>
+			<item value="spring_general._SpringREST_Demo"/>
+		</list>
+		<list key="groupId">
+			<item value="spring-general"/>
+		</list>
+		<list key="artifactId">
+			<item value="41-SpringREST-CRUDProject"/>
+			<item value="40-SpringREST-JacksonHandles"/>
+			<item value="40-SpringREST-JacksonWillHandle"/>
+			<item value="39-SpringREST-Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="750"/>
+		<item key="y" value="361"/>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="39-SpringREST-Demo"/>
+			<item value="CoffeeBuddie"/>
+			<item value="25-Web-Customer-Tracker"/>
+			<item value="21-SpringMVCValidations"/>
+			<item value="20-SpringMVCForms"/>
+			<item value="19-SpringMVCRequestParams"/>
+			<item value="18-SpringMVCModel"/>
+			<item value="17-SpringMVCParam"/>
+			<item value="16-SpringMVC"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="39-SpringREST-Demo"/>
+			<item value="CoffeeBuddie"/>
+			<item value="25-Web-Customer-Tracker"/>
+			<item value="21-SpringMVCValidations"/>
+			<item value="20-SpringMVCForms"/>
+			<item value="19-SpringMVCRequestParams"/>
+			<item value="18-SpringMVCModel"/>
+			<item value="17-SpringMVCParam"/>
+			<item value="16-SpringMVC"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\tahat\eclipse-workspace\53-Thymeleaf-CRUD-Registration-and-Custom-Auth-Handler"/>
+			<item value="C:\Users\tahat\eclipse-workspace\51-Thymeleaf"/>
+			<item value="C:\Users\tahat\eclipse-workspace\47-SpringBootRESTCRUD"/>
+			<item value="C:\Users\tahat\eclipse-workspace\47-SpringBootRESTCRUDAPI"/>
+			<item value="C:\Users\tahat\eclipse-workspace\45-SpringBootActuator"/>
+			<item value="C:\Users\tahat\eclipse-workspace\44-SpringBootDevTool"/>
+			<item value="C:\Users\tahat\eclipse-workspace\43-RestSecurity"/>
+			<item value="C:\Users\tahat\eclipse-workspace\42-CRMPRojectREST"/>
+			<item value="C:\Users\tahat\eclipse-workspace\38-SpringREST-Jackson"/>
+			<item value="C:\Users\tahat\Desktop\springbootdemo"/>
+			<item value="C:\Users\tahat\Desktop\42-SpringBootDemo"/>
+			<item value="C:\Users\tahat\Desktop\demo"/>
+			<item value="C:\Users\tahat\eclipse-workspace\0-BaseProject"/>
+			<item value="C:\Users\tahat\Desktop\base-project"/>
+			<item value="C:\Users\tahat\Desktop\solution-code-spring-crm-rest-demo-get-all-customers\solution-code-spring-crm-rest-demo-get-all-customers"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

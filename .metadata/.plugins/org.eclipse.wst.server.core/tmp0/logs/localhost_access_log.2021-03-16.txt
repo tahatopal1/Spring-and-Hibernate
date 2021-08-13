@@ -1,0 +1,10 @@
+127.0.0.1 - - [16/Mar/2021:22:24:29 +0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [16/Mar/2021:22:24:30 +0300] "GET /CoffeeBuddie/ HTTP/1.1" 404 682
+127.0.0.1 - - [16/Mar/2021:22:25:17 +0300] "GET /CoffeeBuddie/customer/login HTTP/1.1" 200 4293
+127.0.0.1 - - [16/Mar/2021:22:25:17 +0300] "GET /CoffeeBuddie/resources/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [16/Mar/2021:22:25:17 +0300] "GET /CoffeeBuddie/resources/images/coffee-bground.jpg HTTP/1.1" 200 97295
+127.0.0.1 - - [16/Mar/2021:22:25:17 +0300] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [16/Mar/2021:22:31:42 +0300] "POST /CoffeeBuddie/customer/login-success HTTP/1.1" 200 6907
+127.0.0.1 - - [16/Mar/2021:22:31:42 +0300] "GET /CoffeeBuddie/resources/images/mainlogo.png HTTP/1.1" 200 6406
+127.0.0.1 - - [16/Mar/2021:22:31:42 +0300] "GET /CoffeeBuddie/resources/images/play-store.png HTTP/1.1" 200 7862
+127.0.0.1 - - [16/Mar/2021:22:31:42 +0300] "GET /CoffeeBuddie/resources/images/app-store.png HTTP/1.1" 200 8974

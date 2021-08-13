@@ -1,0 +1,3 @@
+
+# Enabling /actuator/health and /actuator/info endpoints
+management.endpoints.web.exposure.include=health,info

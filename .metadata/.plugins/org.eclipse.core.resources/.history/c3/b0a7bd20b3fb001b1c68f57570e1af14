@@ -1,0 +1,10 @@
+package com.project.model;
+
+import com.project.validation.FieldMatch;
+
+@FieldMatch.List({
+	@FieldMatch(first = "password", )
+})
+public class CrmUser {
+
+}

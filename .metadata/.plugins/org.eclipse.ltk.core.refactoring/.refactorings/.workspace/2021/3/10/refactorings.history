@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;28-AOPAspect&apos; to &apos;28-AOPAround&apos;" description="Rename resource &apos;28-AOPAspect&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/28-AOPAspect" name="28-AOPAround" stamp="1614933508975" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+127.0.0.1 - - [22/Mar/2021:01:36:50 +0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [22/Mar/2021:01:36:50 +0300] "GET /CoffeeBuddie/ HTTP/1.1" 404 682
+127.0.0.1 - - [22/Mar/2021:01:36:57 +0300] "GET /CoffeeBuddie/customer/login HTTP/1.1" 200 4293
+127.0.0.1 - - [22/Mar/2021:01:37:04 +0300] "POST /CoffeeBuddie/customer/login-success HTTP/1.1" 200 10289
+127.0.0.1 - - [22/Mar/2021:01:42:53 +0300] "GET /CoffeeBuddie/customer/login-success HTTP/1.1" 405 749

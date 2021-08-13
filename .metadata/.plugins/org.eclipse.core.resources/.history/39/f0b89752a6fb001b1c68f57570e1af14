@@ -1,0 +1,19 @@
+package com.project.dao;
+
+import com.project.entity.User;
+
+public class UserDaoImpl implements UserDao{
+
+	@Override
+	public User findByUserName(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void save(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

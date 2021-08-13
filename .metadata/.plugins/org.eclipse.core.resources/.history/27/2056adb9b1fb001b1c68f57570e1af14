@@ -1,0 +1,11 @@
+package com.project.validation;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import javax.validation.Constraint;
+
+@Constraint(validatedBy = EmailValidator.class)
+public @interface ValidEmail {
+	
+}

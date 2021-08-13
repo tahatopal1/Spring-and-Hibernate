@@ -1,0 +1,22 @@
+package com.project.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.project.dao.EmployeeDAO;
+
+@RestController
+@RequestMapping("/api")
+public class EmployeeController {
+	
+	private EmployeeDAO employeeDAO;
+
+	// Quick and dirty: Inject employee dao
+	public EmployeeController(EmployeeDAO employeeDAO) {
+		this.employeeDAO = employeeDAO;
+	}
+	
+	
+	// Expose "/employees" and return list of employees
+	
+}

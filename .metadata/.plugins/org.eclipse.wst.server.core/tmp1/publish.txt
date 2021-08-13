@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Aug 04 04:21:17 TRT 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\tahat\\.m2\\repository\\org\\springframework\\spring-web\\5.1.7.RELEASE\\spring-web-5.1.7.RELEASE.jar=WEB-INF/lib/spring-web-5.1.7.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\tahat\\.m2\\repository\\org\\springframework\\spring-web\\5.0.6.RELEASE\\spring-web-5.0.6.RELEASE.jar=WEB-INF/lib/spring-web-5.0.6.RELEASE.jar

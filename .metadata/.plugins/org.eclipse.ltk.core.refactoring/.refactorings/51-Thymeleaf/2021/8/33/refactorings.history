@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.project.Thymeleaf&apos; to &apos;com.project&apos;&#x0D;&#x0A;- Original project: &apos;51-Thymeleaf&apos;&#x0D;&#x0A;- Original element: &apos;51-Thymeleaf/src/main/java/com.project.Thymeleaf&apos;&#x0D;&#x0A;- Renamed element: &apos;51-Thymeleaf/src/main/java/com.project&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.project.Thymeleaf&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.project.Thymeleaf" name="com.project" qualified="false" references="true" stamp="1628542567486" textual="false" version="1.0"/>
+</session>

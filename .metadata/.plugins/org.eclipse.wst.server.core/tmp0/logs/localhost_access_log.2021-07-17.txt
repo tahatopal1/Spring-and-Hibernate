@@ -1,0 +1,9 @@
+127.0.0.1 - - [17/Jul/2021:02:23:19 +0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:23:20 +0300] "GET /25-Web-Customer-Tracker/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:23:20 +0300] "GET /25-Web-Customer-Tracker/customer/list HTTP/1.1" 200 3215
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:23:20 +0300] "GET /25-Web-Customer-Tracker/resources/css/style.css HTTP/1.1" 200 1089
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:23:43 +0300] "GET /25-Web-Customer-Tracker/customer/customer-form HTTP/1.1" 200 1374
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:23:43 +0300] "GET /25-Web-Customer-Tracker/resources/css/add-customer-style.css HTTP/1.1" 200 566
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:26:47 +0300] "GET /25-Web-Customer-Tracker/customer/customer-form-update?customerID=3 HTTP/1.1" 200 1397
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:26:49 +0300] "GET /25-Web-Customer-Tracker/customer/list HTTP/1.1" 200 3215
+0:0:0:0:0:0:0:1 - - [17/Jul/2021:02:26:59 +0300] "GET /25-Web-Customer-Tracker/customer/customer-form-update?customerID=5 HTTP/1.1" 200 1402

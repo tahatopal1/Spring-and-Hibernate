@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="120" stop-timeout="15" testEnvironment="true" timestamp="86">
+    <list key="modules" value0="41-SpringREST-CRUDProject::org.eclipse.jst.jee.server:41-SpringREST-CRUDProject::jst.web::3.1" value1="42-CRMProjectRest::org.eclipse.jst.jee.server:42-CRMProjectRest::jst.web::3.1" value2="43-RestSecurity::org.eclipse.jst.jee.server:43-RestSecurity::jst.web::3.1"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost (2)" name="Tomcat v8.5 Server at localhost (2)" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="4">
+    <list key="modules" value0="41-SpringREST-CRUDProject::org.eclipse.jst.jee.server:41-SpringREST-CRUDProject::jst.web::3.1" value1="42-CRMProjectRest::org.eclipse.jst.jee.server:42-CRMProjectRest::jst.web::3.1"/>
+  </server>
+</servers>

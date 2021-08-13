@@ -1,0 +1,9 @@
+package com.project.controller;
+
+public class EmployeeController {
+	
+	// Quick and dirty: Inject employee dao
+	
+	// Expose "/employees" and return list of employees
+	
+}

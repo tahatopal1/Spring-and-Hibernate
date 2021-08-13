@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+</head>
+<body>
+	<h2>Home Page</h2>
+	<hr>
+	<p>Welcome to home page!</p>
+	<hr>
+	
+	<!-- Display username and role -->
+	<div>
+		User: <span sec:authentication="name"></span>
+		<br><br>
+		Role(s): <span sec:authentication="principal.authorities"></span>
+		<br><br>
+		
+		<!-- Check for login error -->
+		<div th:if="${session.user}">
+			<p th:text="'First name: ' + ${session.user.firstName} + ', Last name: '
+																 + ${session.user.lastName} 
+																 + ', Email: ' 
+																 + ${session.user.email}"></p>
+		</div>
+	</div>
+	<div sec:authorize="hasRole('ROLE_MANAGER')">
+		<!-- Link to point to /leaders (only the managers can see) -->
+		<p>
+			<a th:href="@{/leaders}">Leadership Meeting</a>
+		</p>
+	</div>
+	
+</body>
+</html>

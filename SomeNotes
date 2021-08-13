@@ -1,0 +1,58 @@
+
+1) What is a Spring Bean?
+A "Spring Bean" is simply a Java object. When Java objects are created by the Spring Container, then Spring refers to them as "Spring Beans".
+
+2) For "prototype" scoped beans, Spring does not call the destroy (or @PreDestroy) method. 
+
+3) How can we create code to call the destroy method on prototype scope beans?
+
+The prototype scoped beans MUST implement the DisposableBean interface. This interface defines a "destory()" method or we can use BeanPostProcessor aswell.
+
+4) What is a real-time use caese for @Bean?
+
+If there is a external Java file that you can not modify by adding @Component annotation, you can use @Bean annotation to include this bean to integrate it SpringFramework.
+
+5) How to start auto-generated id values from an exact number
+
+By processing this query:
+	ALTER TABLE your_schema.your_table AUTO_INCREMENT = your_number_choice
+
+6) How to reset auto_increment value to 1
+
+This query will reset all rules on the table:
+	truncate your_schema.your_table
+
+
+7) Some query examples with defining FK
+
+CREATE TABLE `instructor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45) DEFAULT NULL,
+  `last_name` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `instructor_detail_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `FK_DETAIL` FOREIGN  KEY (`instructor_detail_id`) REFERENCES `instructor_detail` (`id`)
+);
+
+CREATE TABLE `instructor_detail` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `youtube_channel` varchar(128) DEFAULT NULL,
+  `hobby` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `instructor`;
+
+CREATE TABLE `instructor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45) DEFAULT NULL,
+  `last_name` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `instructor_detail_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_DETAIL_idx` (`instructor_detail_id`),
+  CONSTRAINT `FK_DETAIL` FOREIGN KEY (`instructor_detail_id`) REFERENCES `instructor_detail` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+

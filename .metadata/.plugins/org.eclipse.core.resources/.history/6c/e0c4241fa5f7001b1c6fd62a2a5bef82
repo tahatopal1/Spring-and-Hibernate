@@ -1,0 +1,40 @@
+package com.project.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.project.entity.Employee;
+
+@Repository
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
+
+	// Define field for entitymanager
+	private EntityManager entityManager;
+	
+	// Set up constructor injection
+	@Autowired // No need to use autowired actually
+	public EmployeeDAOHibernateImpl(EntityManager entityManager) {
+		this.entityManager = entityManager;
+	}
+	
+	@Override
+	@Transactional
+	public List<Employee> findAll() {
+		
+		// Get the current hibernate session
+		
+		// Create a query
+		
+		// Execute query and get result list
+		
+		// Return the results
+		
+		return null;
+	}
+
+}

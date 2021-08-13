@@ -1,0 +1,29 @@
+package com.project.service;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import com.project.entity.User;
+import com.project.model.CrmUser;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User findByUserName(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void save(CrmUser crmUser) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
